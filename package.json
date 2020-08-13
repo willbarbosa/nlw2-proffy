@@ -1,0 +1,27 @@
+{
+  "name": "nlw2",
+  "version": "1.0.0",
+  "description": "Projeto desenvolvido durante a semana Next Level Week #2 pela Rocketseat",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "dbdev": "node src/database/db.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willbarbosa/nlw2-proffy.git"
+  },
+  "author": "William R. Barbosa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/willbarbosa/nlw2-proffy/issues"
+  },
+  "homepage": "https://github.com/willbarbosa/nlw2-proffy#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.2",
+    "sqlite-async": "^1.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}

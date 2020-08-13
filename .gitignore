@@ -1,0 +1,9 @@
+# Modulos
+node_modules
+
+# Banco de testes gerado
+src/database/database.sqlite
+
+# Scripts de testes
+src/database/fake_data.js
+src/database/test.js
