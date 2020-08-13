@@ -2,7 +2,7 @@
 const express = require('express')
 const server = express()
 
-const { pageLanding, pageStudy, pageGiveClasses, saveClasses } = require('./pages')
+const { pageLanding, pageStudy, pageGiveClasses, saveClasses, pageSuccess } = require('./pages')
 
 // Nunjucks configuration (templates engine)
 const nunjucks = require('nunjucks')
@@ -22,5 +22,6 @@ server
 .get("/study", pageStudy)
 .get("/give-classes", pageGiveClasses)
 .post("/save-classes", saveClasses)
+.get("/success", pageSuccess)
 // Start server
 .listen(5500)

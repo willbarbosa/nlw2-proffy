@@ -80,15 +80,20 @@ async function saveClasses(request, response) {
         queryString += "&weekday=" + request.body.weekday[0]
         queryString += "&time=" + request.body.time_from[0]
 
-        return response.redirect("/study" + queryString)
+        return response.redirect("/success" + queryString)
     } catch (error) {
         console.log(error)
     }
+}
+
+function pageSuccess(request, response) {
+    return response.render("success.html");
 }
 
 module.exports = {
     pageLanding,
     pageStudy,
     pageGiveClasses,
-    saveClasses
+    saveClasses,
+    pageSuccess
 }
