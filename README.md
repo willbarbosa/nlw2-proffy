@@ -8,6 +8,18 @@ Proffy é uma plataforma de estudos online desenvolvida para conectar alunos e p
 
 A aplicação foi desenvolvida utilizando a metodologia mobile first, preparada para suportar diferentes plataformas.
 
+### Como executar o projeto
+```bash
+# Clonar o repositório
+git clone https://github.com/willbarbosa/nlw2-proffy.git
+# Entrar no diretório
+cd nlw2-proffy
+# Baixar as dependências
+npm i
+# Executar o servidor
+npm run dev
+```
+
 ### LICENSE
 _MIT License_
 _Copyright_   ©   2020 William R. Barbosa
