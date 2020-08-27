@@ -25,4 +25,4 @@ server
 .post("/save-classes", saveClasses)
 .get("/success", pageSuccess)
 // Start server
-.listen(port)
+.listen(port, () => console.log("Listening on port", port))
