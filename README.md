@@ -2,7 +2,7 @@
 
 ### Projeto
 
-Proffy é uma plataforma de estudos online desenvolvida para conectar alunos e professores de forma rápida e fácil. Essa aplicação foi desenvolvida na trilha Discovery da __[Next Level Week #2](https://nextlevelweek.com/)__, evento produzido pela __[Rocketseat](https://rocketseat.com.br/)__.
+Proffy é uma plataforma desenvolvida para conectar alunos e professores de forma rápida e fácil. Essa aplicação foi desenvolvida na trilha Discovery da __[Next Level Week #2](https://nextlevelweek.com/)__, evento produzido pela __[Rocketseat](https://rocketseat.com.br/)__.
 
 ### Desenvolvimento
 
